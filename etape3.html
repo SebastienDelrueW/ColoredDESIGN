@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colored design - étape 3</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body {
+            margin: 10px 0;
+            padding: 0;
+            background-color: #dea;
+
+            /* text-align: center à cause d'Internet Explorer (les ancienne versions d'IE) */
+            text-align: center;
+            font: 0.8em "Trebuchet MS", Helvetica, sans-serif; 
+            /* ceci est la version raccoucie des deux lignes suivantes */
+            /* font-size: 0.8em;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+            background-color: #dea; */
+        }
+
+        #conteneur {
+            /* margin 0 et auto pour centrer le contenu dans la page ATTENTION à donner une largeur (c'est une marge automatique) */
+            margin: 0 auto;
+            width: 770px;
+            border: 2px solid #ab4;
+            background-color: #fff;
+           
+            text-align: left;
+        }
+
+        header h1 {
+                    /* hauteur du h1 dans le header */
+                    height: 258px;
+                    /*top ou bottom pour l'image dans le h1*/
+                    background: url(img/apple.jpg) no-repeat left bottom;
+                    /* background-image: url(img/apple.jpg);
+                    background-repeat: no-repeat;
+                    background-position: left bottom; */
+        }
+
+        main {
+           /*padding pour main afin de caler les contenus dans main et laisser la place à l'image en arrière plan*/
+            padding: 0 30px 0 100px;
+            background: url(img/bg_page.gif) no-repeat left top;
+
+        }
+
+        main h2 {
+            padding-left: 25px;
+            background: url(img/little_apple.gif) no-repeat left bottom;
+            border-bottom: 1px solid #9b2;
+           
+
+            font-size: 1.4em;
+            line-height: 25px;
+            color: #9b2;
+        }
+
+        main h3 {
+            margin-left: 15px;
+            padding-left: 5px;
+            /*width: 50%*/
+            border-bottom: 1px solid #9b2;
+            border-left: 3px solid #9b2;
+            color: #9b2;
+    
+        }
+        main p {
+            line-height: 1.7em;
+            text-align: justify;
+        }
+
+        main a {
+            color: #8a0;
+
+        }
+        main a:hover {
+           color: rgb(187, 103, 34); 
+        }
+        
+        footer p{
+            margin: 0;
+            padding-right: 10px;
+
+            color : #8a0;
+            line-height: 30px;
+            text-align: right; 
+
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <!-- cette division contient l'ensemble de la page, on peut l'appeler "wrapper" "contenu" ou parfois div id="main" etc. -->
+    <div id="conteneur">
+
+        <!-- en tête de la page, de body -->
+        <header>
+            <!-- titre de la page -->
+            <h1><a href="#" title="Colored Design">Colored Design 3</a></h1>
+            <!-- pour avoir la nav avec ul et les li etc-->
+            <!-- nav>ul>li*5>a[title]{etape n° $}-->
+            <nav>
+                <ul>
+                    <li><a href="etape1.html" title="Colored design &Eacute; tape 1">Étape n° 1</a></li>
+                    <li><a href="etape2.html" title="Colored design &Eacute; tape 2">Étape n° 2</a></li>
+                    <li><a href="etape3.html" title="Colored design &Eacute; tape 3">Étape n° 3</a></li>
+                    <li><a href="etape4.html" title="Colored design &Eacute; tape 4">Étape n° 4</a></li>
+                    <li><a href="etape5.html" title="Colored design &Eacute; tape 5">Étape n° 5</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- contenu principal -->
+        <main>
+            <h2>Un titre /// étape 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptates sequi aperiam doloribus
+                corporis cumque molestias ut exercitationem consequatur iusto earum voluptate ipsam suscipit, natus
+                illum saepe assumenda sint asperiores!</p>
+            <p>Illo quae sequi vel quisquam alias labore error non est voluptates ea quaerat, earum, beatae ex itaque
+                excepturi nihil recusandae a minima eveniet veniam perspiciatis. Obcaecati blanditiis nihil pariatur
+                enim.</p>
+            <p>Doloremque, deserunt error blanditiis ad, est delectus quaerat voluptas voluptatibus ratione quo velit
+                iure accusamus maxime cupiditate numquam, pariatur ullam. Necessitatibus ea optio rerum in laudantium
+                reprehenderit numquam earum ipsum.</p>
+            <p>Facere numquam commodi sit officia alias laboriosam eos voluptatum earum distinctio quidem saepe pariatur
+                exercitationem, blanditiis vero beatae tempora, <a href="#" title="lien">voluptatibus soluta repellendus quod nulla facilis
+                quaerat.</a>  Magnam quasi tempora sunt?</p>
+
+            <h2>Un sous-titre 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptates sequi aperiam doloribus
+                corporis cumque molestias ut exercitationem consequatur iusto earum voluptate ipsam suscipit, natus
+                illum saepe assumenda sint asperiores!</p>
+            <p>Illo quae sequi vel quisquam alias labore error non est voluptates ea quaerat, earum, beatae ex itaque
+                excepturi nihil recusandae a minima eveniet veniam perspiciatis. Obcaecati blanditiis nihil pariatur
+                enim.</p>
+                <h3>Sous-titre de niveau 3</h3>
+            <p>Doloremque, deserunt error blanditiis ad, est delectus quaerat voluptas voluptatibus ratione quo velit
+                iure accusamus maxime cupiditate numquam, pariatur ullam. Necessitatibus ea optio rerum in laudantium
+                reprehenderit numquam earum ipsum.</p>
+            <p>Facere numquam commodi sit officia alias laboriosam eos voluptatum earum distinctio quidem saepe pariatur
+                exercitationem, blanditiis vero beatae tempora, voluptatibus soluta repellendus quod nulla facilis
+                quaerat. Magnam quasi tempora sunt?</p>
+
+            <h2>Un sous-titre 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptates sequi aperiam doloribus
+                corporis cumque molestias ut exercitationem consequatur iusto earum voluptate ipsam suscipit, natus
+                illum saepe assumenda sint asperiores!</p>
+            <p>Illo quae sequi vel quisquam alias labore error non est voluptates ea quaerat, earum, beatae ex itaque
+                excepturi nihil recusandae a minima eveniet veniam perspiciatis. Obcaecati blanditiis nihil pariatur
+                enim.</p>
+            <p>Doloremque, deserunt error blanditiis ad, est delectus quaerat voluptas voluptatibus ratione quo velit
+                iure accusamus maxime cupiditate numquam, pariatur ullam. Necessitatibus ea optio rerum in laudantium
+                reprehenderit numquam earum ipsum.</p>
+            <p>Facere numquam commodi sit officia alias laboriosam eos voluptatum earum distinctio quidem saepe pariatur
+                exercitationem, blanditiis vero beatae tempora, voluptatibus soluta repellendus quod nulla facilis
+                quaerat. Magnam quasi tempora sunt?</p>
+        </main>
+        <!-- pied de page -->
+        <footer>
+            <p>Réalisation des codes HTML/CSS, du tutoriel et du design Sébastien Delrue W</p>
+        </footer>
+    </div>
+</body>
+
+</html>
