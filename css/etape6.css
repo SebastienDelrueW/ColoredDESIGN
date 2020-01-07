@@ -14,7 +14,7 @@
         #conteneur {
             /* margin 0 et auto pour centrer le contenu dans la page ATTENTION à donner une largeur (c'est une marge automatique) */
             margin: 0 auto;
-            width: 770px;
+            width: 700px;
             border: 2px solid #ab4;
             background-color: #fff;
 
@@ -47,13 +47,15 @@
         }
 
 
-        ul#menu {
+        ul#menu {  
             height: 35px;
             margin: 0;
             padding: 0;
             /* on met l'image de fond avec un décalage de 25 pixels vers le haut */
             background: url(../img/bg_menu.gif) repeat-x 0 -25px;
             list-style-type: none;
+            
+            
         }
 
         ul#menu li {
