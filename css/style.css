@@ -10,8 +10,6 @@
             text-align: center;
             font: 0.8em 'PT Sans', sans-serif;
             /* font: 0.8em "Trebuchet MS", Helvetica, sans-serif; */
-
-    
         }
 
         #conteneur {
@@ -29,7 +27,6 @@
             height: 258px;
             /*top ou bottom pour l'image dans le h1*/
             background: url(../img/apple.jpg) no-repeat left bottom;
-           
         }
 
         header h1 a {
